@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px
+}
+
+form .form-admin{
+    width: 50%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+
+form .product-field{
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button1{
+    width:150px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(93, 93, 245);
+    color: white;
+    font-size: 18px;
+}
+
+form h1{
+    color: rgb(93, 93, 245);   
+}
